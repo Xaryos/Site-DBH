@@ -168,7 +168,11 @@ nav > ul li:hover .sous
     background-position: middle;
     font-family: Arial,"Comic sans ms";
 }
-/* - - Pop up - - */
+/* - - Other.. - - */
+
+a {
+    background-color: transparent;
+  }
 
 /* - - - - Footer - - - - */
 .hautpg
