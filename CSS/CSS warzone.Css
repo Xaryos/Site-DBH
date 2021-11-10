@@ -1,0 +1,186 @@
+.bodywz
+{
+    background-image: url(http://wallpapercave.com/wp/3jQbonO.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover, 100%;
+    overflow:auto;
+}
+/* - - - - Header - - - - */ 
+.mainheadwz
+{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-size: 100px;
+    background-color: #1B1B1B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logodbhwz
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://prod.cloud.rockstargames.com/crews/sc/2814/48949502/publish/emblem/emblem_128.png);
+    background-size: 100px;
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+}
+.titreh1wz
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    position: absolute;
+    margin-left: 45.5%;
+    margin-right: 45.5%;
+    top: 3% 
+}
+/* - - - - Onglet Navigations - - - - */
+.navwz
+{
+    background-color: #1B1B1B;
+}
+.navulwz
+{
+    margin-left: -35%;
+}
+.navawz
+{
+    color: silver;
+}
+/* Traitement de texte */
+.pwz
+{
+    color: silver;
+}
+.divwz
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.divwzimg
+{
+    text-align: center;
+}
+.h1wz
+{
+    text-align: center;
+    color: red;
+}
+a
+{
+    color: #7788997e;
+}
+a:hover
+{
+    color: grey;
+}
+/* Sections */
+.resume
+{
+    background-color: hsla(0, 0%, 10%, 0.85);
+    margin-right: 32%;
+    margin-left: 32%;
+    height: auto;
+}
+
+.principes
+{
+    background-color: hsla(0, 0%, 10%, 0.85);
+    margin-right: 32%;
+    margin-left: 32%;
+    height: auto;
+}
+.modesdejeu
+{
+    background-color: hsla(0, 0%, 10%, 0.85);
+    margin-right: 32%;
+    margin-left: 32%;
+    height: auto;
+}
+/* - - - - Footer - - - - */
+.infofooterwz
+{
+    color: silver;
+}
+.hautpgwz
+{
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    position: absolute;
+    left: 85%;
+    right: 5%;
+}
+/*======================================================= Warzone mode de jeux ===============================================*/
+.bodywzmdj
+{
+    background-image: url(http://wallpapercave.com/wp/3jQbonO.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover, 100%;
+    overflow:auto;
+}
+/* - - - - Header - - - - */ 
+.mainheadwzmdj
+{
+    display: block;
+    width: 100%;
+    height: 100px;
+    background-size: 100px;
+    background-color: #1B1B1B;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logodbhwzmdj
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://prod.cloud.rockstargames.com/crews/sc/2814/48949502/publish/emblem/emblem_128.png);
+    background-size: 100px;
+    position: absolute;
+    top: 0.5%;
+    left: 0.5%;
+}
+
+.titreh1wzmdj
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: silver;
+    position: absolute;
+    text-align: center;
+    margin-left: 38%;
+    margin-right: 38%;
+    top: 3%;
+}
+
+/* - - - - Onglet Navigations - - - - */
+.navwzmdj
+{
+    background-color: #1B1B1B;
+}
+.navulwzmdj
+{
+    margin-left: -35%;
+}
+.navawzmdj
+{
+    color: silver;
+}
+/* Traitement de texte */
+/* Sections */
+/* - - - - Footer - - - - */
+.infofooterwzmdj
+{
+    color: silver;
+}
+.hautpgwzmdj
+{
+    color: silver;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    position: absolute;
+    left: 85%;
+    right: 5%;
+}
