@@ -170,6 +170,7 @@ nav > ul li:hover .sous
     background-position: middle;
     font-family: Arial,"Comic sans ms";
     border-radius: 50px;
+    box-shadow: 10px 10px 10px #ffd97a;
 }
 /* - - Other.. - - */
 

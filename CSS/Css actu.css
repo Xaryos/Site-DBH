@@ -173,6 +173,7 @@ nav > ul li:hover .sous
         text-align: center;
         color:white;
         padding: 1em;
+        border-radius: 30px;
 }
 .activité{
         flex: 0.95;
@@ -186,6 +187,7 @@ nav > ul li:hover .sous
         margin-left: 15em;
         margin-top: 70px;
         padding: 1em;
+        border-radius: 30px;
 }
 .sections{
     display: flex;
