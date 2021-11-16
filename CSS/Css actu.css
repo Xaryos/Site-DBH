@@ -13,7 +13,7 @@ html {
 }
 /* - - En construction - -*/
 
-.inbuild
+.inbuild  /* Divison */
 {
     color: crimson;
     font-size: large;
@@ -21,13 +21,16 @@ html {
     background-repeat: no-repeat;
     background-size: 100% auto;
 }
-.inbuildimg
+.inbuildimg  /* image */
 {
+    display: flex;
     background-image: url(../images/Inbuild.png);
     position: absolute;
     bottom: 26%;
     right: 76.5%;
-    image-resolution: 200px 300px;
+    height: 200px;
+    width: 300px;
+    
 }
 /*    -   - Header  -   -    */
 
