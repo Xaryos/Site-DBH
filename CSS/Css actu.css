@@ -23,10 +23,11 @@ html {
 }
 .inbuildimg
 {
-    background-image: url(images/inbuild.png);
+    background-image: url(../images/Inbuild.png);
     position: absolute;
     bottom: 26%;
     right: 76.5%;
+    image-resolution: 200px 300px;
 }
 /*    -   - Header  -   -    */
 
