@@ -23,7 +23,7 @@ html {
 }
 .inbuildimg  /* image */
 {
-    display: flex;
+    display: block;
     background-image: url(../images/Inbuild.png);
     position: absolute;
     bottom: 26%;
