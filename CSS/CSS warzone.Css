@@ -7,6 +7,7 @@ body
     background-repeat: no-repeat;
     background-size: cover, 100%;
     overflow:auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* - - - - Header - - - - */ 
 header
@@ -18,7 +19,7 @@ header
     background-color: #1B1B1B;
     font-family: Arial, Helvetica, sans-serif;
 }
-.logodbhwz
+.logodbh
 {
     display: block;
     width: 100px;
@@ -29,7 +30,7 @@ header
     top: 0.5%;
     left: 0.5%;
 }
-.titreh1wz
+.titre
 {
     font-family: Arial, Helvetica, sans-serif;
     color: silver;
@@ -52,20 +53,13 @@ header
     color: silver;
 }
 /* Traitement de texte */
-.pwz
+p
 {
     color: silver;
-}
-.divwz
-{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-.divwzimg
-{
-    text-align: center;
-}
-.h1wz
+h1
 {
     text-align: center;
     color: red;
@@ -78,23 +72,37 @@ a:hover
 {
     color: grey;
 }
+/* Images */
+.img
+{
+    text-align: center;
+}
+.logoactivion
+{
+    background-image: url(../images/Activision.jpg);
+    width: 378px;
+    height: 94px;
+}
+.logoraven
+{
+    background-image: url(../images/raven.jpg);
+    width: 442px;
+    height: 94px;
+}
+.verdansk
+{
+    background-image: url(../images/Verdansk.jpg);
+    width: 340px;
+    height: 340px;
+}
+.rebirthisland
+{
+    background-image: url(../images/Rebirth\ island.png);
+    width: 340px;
+    height: 340px;
+}
 /* Sections */
-.resume
-{
-    background-color: hsla(0, 0%, 10%, 0.85);
-    margin-right: 32%;
-    margin-left: 32%;
-    height: auto;
-}
-
-.principes
-{
-    background-color: hsla(0, 0%, 10%, 0.85);
-    margin-right: 32%;
-    margin-left: 32%;
-    height: auto;
-}
-.modesdejeu
+.resume, .principes, .modesdejeu
 {
     background-color: hsla(0, 0%, 10%, 0.85);
     margin-right: 32%;
@@ -102,11 +110,11 @@ a:hover
     height: auto;
 }
 /* - - - - Footer - - - - */
-.infofooterwz
+.infofooter
 {
     color: silver;
 }
-.hautpgwz
+.hautpg
 {
     color: silver;
     font-family: Arial, Helvetica, sans-serif;
