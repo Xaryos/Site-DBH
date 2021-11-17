@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 
-.bodywz
+body
 {
     background-image: url(http://wallpapercave.com/wp/3jQbonO.jpg);
     background-attachment: fixed;
@@ -9,7 +9,7 @@
     overflow:auto;
 }
 /* - - - - Header - - - - */ 
-.mainheadwz
+header
 {
     display: block;
     width: 100%;
