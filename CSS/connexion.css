@@ -1,0 +1,141 @@
+/* Calibrage */
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    font-size: 100%;
+}
+
+body
+{
+    margin: 0;
+    background-color: #FFF0CC;
+}
+
+.head_connexion
+{
+    display: block;
+    width: auto;
+    height: 130px;
+    background-color: #fde2a2;
+    text-align: center;
+    padding: 5px;
+}
+
+.h1_connexion
+{
+    padding-top: 30px;
+    font-size: 3em;
+    font-family: 'Oswald',cursive, sans-serif;
+}
+
+.p_topconnexion
+{
+    text-align: left;
+    font-family: 'Oswald',cursive, sans-serif;
+    font-size: 1.5em;
+    color: black;
+}
+
+.logodbh
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(https://prod.cloud.rockstargames.com/crews/sc/2814/48949502/publish/emblem/emblem_128.png);
+    background-size: 100px;
+    position: absolute;
+    left: 0.5%;
+}
+
+#connexion
+{
+    font-family: 'Oswald',cursive, sans-serif;
+    color: black;
+}
+
+.champ_connexion
+{
+    display:block;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    left: 20%;
+    margin-top: 100px;
+    border-radius: 15px 15px 15px;
+}
+
+.p_champconnexion
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+.form_connexion
+{
+    border: 1px solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+}
+
+#inscription
+{
+    font-family: 'Oswald',cursive, sans-serif;
+    color: black;
+}
+
+.champ_inscription
+{
+    display:block;
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    right: 20%;
+    margin-top: 100px;
+    border-radius: 15px 15px 15px;
+}
+
+.p_champ_inscription
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 2em;
+}
+
+:required
+{
+    border: 1px solid red;
+}
+
+.form_menu
+{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.spacing
+{
+    padding: 5px;
+}
+
+.spacingtopbutton
+{
+    margin-top: 15px;
+}

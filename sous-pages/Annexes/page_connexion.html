@@ -7,13 +7,44 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width"/>
 
-    <title> *</title>
+    <title> Connexion</title>
 </head>
 <body>
+        <header class="head_connexion">
+            <p class="logodbh"></p>
+                    <h1 class="h1_connexion"> Connexion </h1> 
+            <p><a class="p_topconnexion" href="../../page principale.html" title="Retour au menu principal">Accueil</a></p>   
 
+        </header>
+<div id="connexion">        
+    <section class="champ_connexion">
 
+                <p class="p_champconnexion"> Connectez-vous ici !</p>
 
+                    <form class="form_menu" method="post" action="traitement.php">
+                        <p> Veuillez remplir les informations ci-dessous.</p> <br>
+                             <input class="spacing" type="text" name="pseudo" placeholder="Pseudo" maxlength="16" required autofocus/>
+                        <br>
+                             <input class="spacing" type="password" placeholder="Mot de passe" name="password" required/> <br>
+                             <input class="spacingtopbutton" type="submit" value="Se connecter">
+                    </form>
 
+            </section>
+</div>
 
+<div id="inscription">
+    <section class="champ_inscription">      
+
+        <p class="p_champ_inscription"> Inscrivez-vous ici !</p>
+       
+        <form class="form_menu" method="post" action="traitement.php">
+            <p> Veuillez remplir les informations ci-dessous.</p> <br>
+            <input class="spacing" type="text" placeholder="Pseudo"  required><br>
+            <input class="spacing" type="password" placeholder="Mot de passe" required> <br>
+            <input class="spacing" type="email" placeholder="Email">
+            <br>
+            <input class="spacingtopbutton" type="submit" value="S'inscrire">
+    </section>
+</div>
 </body>
 </html>
