@@ -52,10 +52,11 @@ main {
 {
     display: block;
     width: 100%;
-    height: 100px;
+    height: 120px;
     background-size: 100px;
     background-color: #FFEBBA;
     font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgb(212, 187, 73);
 }
 .logodbh
 {
@@ -86,12 +87,14 @@ main {
 /* - - - - Onglet Navigations - - - - */
 .navpp
 {
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     background-color: #FFEBBA;
     position: sticky;
     top: 0px;
     border-bottom: 2px solid rgb(212, 187, 73);
+    border-left: 2px solid rgb(212, 187, 73);
+    border-right: 2px solid rgb(212, 187, 73);
     font-family: 'Oswald',cursive, sans-serif;
 }
 

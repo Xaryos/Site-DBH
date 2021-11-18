@@ -27,6 +27,7 @@ body
     background-color: #fde2a2;
     text-align: center;
     padding: 5px;
+    border-bottom: 2px solid rgb(212, 187, 73);
 }
 
 .h1_connexion
