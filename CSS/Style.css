@@ -1,5 +1,18 @@
-/* Calibrage */
+/* police écritures */
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+/* Queries */
+
+@media all and (max-width: 1024px)  /* tout type d'appareil et ceux avec une largeur 1024px */
+{
+   
+}
+
+
+
+
+
+/* Calibrage */
 
 * {
     margin: 0;
@@ -57,12 +70,13 @@ main {
 
 .titreh1
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Oswald',cursive, sans-serif;
     color: black;
     position: absolute;
-    left: 42%;
+    left: 40%;
     right: 30%;
-    top: 3% 
+    top: 3%;
+    font-size: 3em;
 }
 
 
@@ -78,6 +92,7 @@ main {
     position: sticky;
     top: 0px;
     border-bottom: 2px solid rgb(212, 187, 73);
+    font-family: 'Oswald',cursive, sans-serif;
 }
 
 nav ul
@@ -163,7 +178,7 @@ nav > ul li:hover .sous
     margin-top: 120px;
     background-repeat: repeat;
     background-position: middle;
-    font-family: Arial,"Comic sans ms";
+    font-family: 'Oswald',cursive, sans-serif;
     border-radius: 30px;
     box-shadow: 10px 10px 10px #ffd97a;
 }
@@ -188,6 +203,17 @@ a {
     padding-top: 10px;
     padding-left: 15px;
 }
+
+.connexion
+{
+    display: block;
+    background-image: url(../images/profile.png);
+    position: fixed;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    border-width: 0px;
+}
 /* - - - - Footer - - - - */
 footer
 {
@@ -197,11 +223,12 @@ footer
     width:100%;
     padding-top:50px;
     height:auto;
+    font-family: 'Oswald',cursive, sans-serif;
 }
 .hautpg
 {
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Oswald',cursive, sans-serif;
     font-weight:bold;
     position:static;
 }
