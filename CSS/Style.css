@@ -50,30 +50,30 @@ main {
 
 .mainhead
 {
-    display: block;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 120px;
     background-size: 100px;
     background-color: #FFEBBA;
     font-family: Arial, Helvetica, sans-serif;
     border-bottom: 2px solid rgb(212, 187, 73);
+    align-items: center;
 }
 .logodbh
 {
-    display: block;
     width: 100px;
     height: 100px;
     background-image: url(https://prod.cloud.rockstargames.com/crews/sc/2814/48949502/publish/emblem/emblem_128.png);
     background-size: 100px;
-    position: absolute;
-    left: 0.5%;
 }
 
 .titreh1
 {
+    display: flex;
+    justify-content: center;
     font-family:'Oswald',cursive, sans-serif;
     color: black;
-    position: absolute;
     left: 40%;
     right: 30%;
     top: 3%;
@@ -90,7 +90,6 @@ main {
     width: 50%;
     margin: 0 auto;
     background-color: #FFEBBA;
-    position: sticky;
     top: 0px;
     border-bottom: 2px solid rgb(212, 187, 73);
     border-left: 2px solid rgb(212, 187, 73);
@@ -171,11 +170,9 @@ nav > ul li:hover .sous
 
 .mise_en_avant
 {
-    display: block;
     height: 200px;
     width: 800px;
     background-color:#F5E2B1;
-    font-weight:none;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 120px;
@@ -209,9 +206,7 @@ a {
 
 .connexion
 {
-    display: block;
     background-image: url(../images/profile.png);
-    position: fixed;
     right: 0px;
     width: 100px;
     height: 100px;
@@ -220,12 +215,12 @@ a {
 /* - - - - Footer - - - - */
 footer
 {
+    display: flex;
+    align-items: flex-end;
     background-color: #FFEBBA;
-    position:absolute;
-    bottom:0;
+    bottom:0%;
     width:100%;
     padding-top:50px;
-    height:auto;
     font-family: 'Oswald',cursive, sans-serif;
 }
 .hautpg
@@ -233,5 +228,4 @@ footer
     color: black;
     font-family: 'Oswald',cursive, sans-serif;
     font-weight:bold;
-    position:static;
 }

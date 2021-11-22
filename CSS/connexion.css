@@ -18,54 +18,49 @@ body
     margin: 0;
     background-color: #FFF0CC;
 }
+#container_head
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 120px;
+    font-family: 'Oswald',cursive, sans-serif;
+}
 
 .head_connexion
 {
-    display: block;
-    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
     height: 130px;
     background-color: #fde2a2;
-    text-align: center;
     padding: 5px;
     border-bottom: 2px solid rgb(212, 187, 73);
 }
 
 .h1_connexion
 {
-    padding-top: 30px;
     font-size: 3em;
-    font-family: 'Oswald',cursive, sans-serif;
+    justify-content: flex-end;
 }
 
 .p_topconnexion
 {
-    text-align: left;
-    font-family: 'Oswald',cursive, sans-serif;
     font-size: 1.5em;
     color: black;
-}
-
-.logodbh
-{
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-image: url(https://prod.cloud.rockstargames.com/crews/sc/2814/48949502/publish/emblem/emblem_128.png);
-    background-size: 100px;
-    position: absolute;
-    left: 0.5%;
+    
 }
 
 #connexion
 {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Oswald',cursive, sans-serif;
     color: black;
 }
 
 .champ_connexion
 {
-    display:block;
-    position: absolute;
     height: 400px;
     width: 400px;
     background-color: gray;
@@ -93,14 +88,14 @@ body
 
 #inscription
 {
+    display: flex;
+    justify-content: space-between;
     font-family: 'Oswald',cursive, sans-serif;
     color: black;
 }
 
 .champ_inscription
 {
-    display:block;
-    position: absolute;
     height: 400px;
     width: 400px;
     background-color: gray;
@@ -125,10 +120,12 @@ body
 
 .form_menu
 {
-    display: block;
+    display: flex;
+    flex-direction: column;
     position: relative;
     text-align: center;
     padding-top: 100px;
+    align-items: center;
 }
 
 .spacing
