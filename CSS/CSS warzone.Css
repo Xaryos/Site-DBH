@@ -77,27 +77,18 @@ a:hover
 {
     text-align: center;
 }
-.logoactivion
+.logoactivision
 {
-    background-image: url(../images/Activision.jpg);
     width: 378px;
     height: 94px;
 }
 .logoraven
 {
-    background-image: url(../images/raven.jpg);
     width: 442px;
     height: 94px;
 }
-.verdansk
+.verdansk, .rebirthisland
 {
-    background-image: url(../images/Verdansk.jpg);
-    width: 340px;
-    height: 340px;
-}
-.rebirthisland
-{
-    background-image: url(../images/Rebirth\ island.png);
     width: 340px;
     height: 340px;
 }
@@ -112,6 +103,7 @@ a:hover
 /* - - - - Footer - - - - */
 .infofooter
 {
+    text-align: left;
     color: silver;
 }
 .hautpg
