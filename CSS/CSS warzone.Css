@@ -12,6 +12,7 @@ body
     height: 100%;
     margin: 0;
 }
+
 /* - - - - Header - - - - */ 
 header
 {
@@ -43,6 +44,7 @@ header
 }
 
 /* - - - - Onglet Navigations - - - - */
+
 /* Traitement de texte */
 p
 {
